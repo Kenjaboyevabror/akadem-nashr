@@ -9,6 +9,7 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #000;
+  text-decoration: none;
 }
 
 .main-link {
@@ -61,7 +62,7 @@
   color: #000;
 }
 
-.features-icon-title {
+.features-item-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
