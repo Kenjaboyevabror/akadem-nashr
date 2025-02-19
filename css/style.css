@@ -23,25 +23,36 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+
 .list-none {
   list-style: none;
 }
+
 .site-header {
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.site-logo {
+  transition: opacity 0.5s ease;
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo:active {
+  opacity: 0.6;
+}
 .site-header-nav {
-display: flex;
-align-items: center;
-gap: 32px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
 
 .site-header-list {
-list-style: none;
-display: flex;
-gap: 32px;
+  list-style: none;
+  display: flex;
+  gap: 32px;
 }
 
 .sitenav-link {
@@ -52,8 +63,11 @@ gap: 32px;
   text-transform: uppercase;
   color: #000;
   text-decoration: none;
+  transition: color 0,5 ease;
 }
-
+.sitenav-link:hover {
+color: #FF7500;
+}
 .main-link {
   background-color: #ff7500;
   font-weight: 700;
@@ -61,8 +75,11 @@ gap: 32px;
   letter-spacing: 0.04em;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.5s ease;
 }
-
+.main-link:hover {
+  opacity: 0,8;
+}
 .hero-section {
   background-color: #252420;
   display: flex;
@@ -103,11 +120,13 @@ gap: 32px;
   font-size: 72px;
   line-height: 86.4px;
 }
+
 .feature-list {
   display: flex;
   list-style: none;
   justify-content: space-between;
 }
+
 .feature {
   width: 340px;
   color: #000;
@@ -138,12 +157,10 @@ gap: 32px;
 .sale-content {
   width: 440px;
   color: #fff;
- 
-}
-
-.sale-list {
 
 }
+
+
 .sale-title {
   font-family: "Roboto condenced";
   font-weight: 700;
@@ -172,7 +189,16 @@ gap: 32px;
   height: 2px;
   background-color: #25242080;
 }
-
+.list-logo {
+  display: flex;
+  justify-content: end;
+  gap: 16px;
+  list-style: none;
+}
+.footer-bottom {
+display: flex;
+justify-content: space-between;
+}
 .footer-link {
   font-weight: 400;
   font-size: 16px;
