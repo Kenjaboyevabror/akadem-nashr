@@ -23,7 +23,6 @@
 
 * {
   font-family: "Roboto", sans-serif;
-  margin: 0;
 }
 
 .list-none {
@@ -35,13 +34,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top:  5px solid #FF7500; 
+  border-top: 5px solid #FF7500;
   padding: 16px 0;
-  
+
 }
 
 .site-logo {
   transition: opacity 0.5s ease;
+  margin-left: 120px;
 }
 
 .site-logo:hover {
@@ -55,13 +55,11 @@
 .site-header-nav {
   display: flex;
   align-items: center;
-  gap: 32px;
 }
 
 .site-header-list {
   list-style: none;
   display: flex;
-  gap: 32px;
   padding: 0;
 }
 
@@ -74,6 +72,7 @@
   color: #000;
   text-decoration: none;
   transition: color 0, 5 ease;
+  margin: 20px;
 }
 
 .sitenav-link:hover {
@@ -91,6 +90,7 @@
   padding: 12px 24px;
   border-radius: 4px;
   display: inline-block;
+  margin-right: 120px;
 }
 
 .main-link:hover {
@@ -108,9 +108,12 @@
 .hero-content {
   width: 390px;
   color: #fff;
+  margin-left: 120px;
 }
+
 .hero-section img {
   border-radius: 8px;
+  margin-right: 120px;
 }
 
 .orange-line {
@@ -141,9 +144,11 @@
   font-weight: 700;
   font-size: 72px;
   line-height: 86.4px;
+  margin-left: 120px;
 }
+
 .feature-section {
-padding: 210px 0;
+  padding: 210px 0;
 }
 
 .feature-list {
@@ -151,11 +156,13 @@ padding: 210px 0;
   list-style: none;
   justify-content: space-between;
   padding: 0;
+  margin-right: 120px;
 }
 
 .feature {
   width: 340px;
   color: #000;
+  margin-left: 120px;
 }
 
 .feature-item-title {
@@ -183,12 +190,13 @@ padding: 210px 0;
 }
 
 .sale img {
-border-radius: 12px;
+  border-radius: 12px;
 }
 
 .sale-content {
   width: 440px;
   color: #fff;
+  margin-left: 120px;
 }
 
 .sale-title {
@@ -205,10 +213,13 @@ border-radius: 12px;
   line-height: 24px;
   letter-spacing: 0.5px;
 }
+
 .sale-img {
   width: 440;
   height: 440;
+  margin-right: 120px;
 }
+
 .primary-text {
   color: #ff7500;
   font-weight: 700;
@@ -227,7 +238,6 @@ border-radius: 12px;
 .list-logo {
   display: flex;
   justify-content: end;
-  gap: 16px;
   list-style: none;
 }
 
@@ -235,13 +245,18 @@ border-radius: 12px;
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
+  margin-left: 120px;
 }
+
 .footer-bottom-img {
-padding: 0;
+  padding: 0;
+  margin-right: 120px;
 }
+
 .footer-bottom ul {
   padding: 0;
 }
+
 .footer-link {
   font-weight: 400;
   font-size: 16px;
@@ -249,6 +264,7 @@ padding: 0;
   color: #252420;
   text-decoration: none;
   transition: all 0.5s ease;
+  margin-right: 120px;
 }
 
 .footer-link:hover {
@@ -258,4 +274,3 @@ padding: 0;
 .footer-link:active {
   opacity: 0.5;
 }
-
