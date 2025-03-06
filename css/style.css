@@ -53,7 +53,6 @@
 
 .site-logo {
   transition: opacity 0.5s ease;
-  margin-left: 120px;
 }
 
 .site-logo:hover {
@@ -104,7 +103,6 @@
   padding: 12px 24px;
   border-radius: 4px;
   display: inline-block;
-  margin-right: 120px;
 }
 
 .main-link:hover {
@@ -126,12 +124,10 @@
 .hero-content {
   width: 390px;
   color: #fff;
-  margin-left: 120px;
 }
 
 .hero-section img {
   border-radius: 8px;
-  margin-right: 120px;
 }
 
 
@@ -160,7 +156,6 @@
   font-weight: 700;
   font-size: 72px;
   line-height: 86.4px;
-  margin-left: 120px;
   margin-top: 0;
   margin-bottom: 72px;
 }
@@ -226,7 +221,7 @@
 .sale-content {
   width: 440px;
   color: #fff;
-  margin-left: 120px;
+
 }
 
 .sale-desc {
@@ -257,7 +252,6 @@
 .sale-img {
   width: 440;
   height: 440;
-  margin-right: 120px;
 }
 
 .primary-text {
@@ -335,7 +329,6 @@ margin-right: 0;
   color: #252420;
   text-decoration: none;
   transition: all 0.5s ease;
-  margin-right: 120px;
 }
 
 .footer-link:hover {
