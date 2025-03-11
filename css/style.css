@@ -19,10 +19,15 @@
   font-style: normal;
 }
 
-
-
 * {
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .orange-line {
@@ -43,12 +48,15 @@
 
 .site-header {
   background-color: white;
+
+  border-top: 5px solid #FF7500;
+  padding: 16px 0;
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 5px solid #FF7500;
-  padding: 16px 0;
-
 }
 
 .site-logo {
@@ -111,10 +119,13 @@
 
 .hero-section {
   background-color: #252420;
+  padding: 80px 0;
+}
+
+.hero-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 80px 0;
 }
 
 .hero-line {
@@ -206,13 +217,19 @@
 }
 
 .sale {
+ padding-top: 120px;
+ padding-bottom: 160px;
+}
+
+.sale-container {
   background-color: #252420;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 64px 0;
+  padding: 64px ;
   border-radius: 12px;
 }
+  
 
 .sale img {
   border-radius: 12px;
@@ -263,11 +280,13 @@
   background-color: #f8f8f8;
   padding: 56px 0;
 }
+
 .footer-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .social-link {
   color: #252420;
 }
@@ -287,6 +306,7 @@
 .list-logo li {
   margin-right: 16px;
 }
+
 .list-logo li:last-child {
   margin-right: 16px;
 }
@@ -298,16 +318,18 @@
 .footer-bottom {
   display: flex;
   padding: 50px 0;
-  
+
 }
+
 .footer-bottom-list {
   padding: 0;
   width: 224px;
   margin: 0;
   margin-right: 68px;
 }
+
 .footer-bottom-list:last-child {
-margin-right: 0;
+  margin-right: 0;
 }
 
 .footer-bottom-list li {
