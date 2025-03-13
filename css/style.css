@@ -139,6 +139,7 @@
 
 .hero-section img {
   border-radius: 8px;
+  box-shadow: 24px 24px 0px 0px #FF750099;
 }
 
 
@@ -195,7 +196,11 @@
 }
 
 .feature img {
-  margin-bottom: 32px;
+  margin-bottom: 24px;
+  padding: 22px;
+  background-color: #FF750033;
+  border-radius: 50%;
+ 
 }
 
 .feature-item-title {
