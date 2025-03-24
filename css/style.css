@@ -48,9 +48,11 @@
 
 .site-header {
   background-color: white;
-
   border-top: 5px solid #FF7500;
   padding: 16px 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
 }
 
 .header-container {
@@ -126,6 +128,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .hero-line {
@@ -137,9 +140,12 @@
   color: #fff;
 }
 
-.hero-section img {
+.hero-img {
   border-radius: 8px;
   box-shadow: 24px 24px 0px 0px #FF750099;
+  position: absolute;
+  right: 20px;
+  top: -40px;
 }
 
 
@@ -200,7 +206,6 @@
   padding: 22px;
   background-color: #FF750033;
   border-radius: 50%;
- 
 }
 
 .feature-item-title {
@@ -211,6 +216,7 @@
   letter-spacing: 0.5px;
   margin-top: 0;
   margin-bottom: 12px;
+  
 }
 
 .feature-item-text {
@@ -233,11 +239,15 @@
   justify-content: space-between;
   padding: 64px ;
   border-radius: 12px;
+  position: relative;
 }
   
 
-.sale img {
+.sale-img {
   border-radius: 12px;
+  position: absolute;
+  right: 64px;
+  bottom: 64px;
 }
 
 .sale-content {
